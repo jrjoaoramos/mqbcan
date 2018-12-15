@@ -40,12 +40,12 @@ Assuming that you configure your adapter as "can0", you can access commands like
 ![alt text](https://statics3.seeedstudio.com/seeed/file/2018-08/bazaar891352_img_2945a.JPG)
 
 ## Analysed procedures
-- [x] Read installed modules list 
-- [x] Read long coding from a module (ex.: multimedia unit 5F)
-- [x] Write long coding on a module
-- [x] Read adaptation value from a module
-- [x] Write adaptation value on a module without security access code
-- [x] Write adaptation value on a module with security access code
+- [x] <b>1.</b> Read installed modules list 
+- [x] <b>2.</b> Read long coding from a module (ex.: multimedia unit 5F)
+- [x] <b>3.</b> Write long coding on a module
+- [x] <b>4.</b> Read adaptation value from a module
+- [x] <b>5.</b> Write adaptation value on a module without security access code
+- [x] <b>6.</b> Write adaptation value on a module with security access code
 
 ## Automation scripts
 - Work in progress :)
