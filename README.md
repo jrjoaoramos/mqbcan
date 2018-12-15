@@ -1,3 +1,5 @@
+![Example of CAN messages dump.](https://github.com/jrjoaoramos/mqbcan/blob/master/imgs/readme.png?raw=true)
+
 # MQB Platform CAN
 This projects aims to identify and analyse the CAN buses that lie in the Volkswagen Group MQB Platform based cars.
 ## Introduction
