@@ -26,7 +26,7 @@ Currently there are being taken dumps from existing applications for common OBD 
 ## How to start
 In order to take dumps of CAN buses, there may be required some special devices. Some OBD-compliant softwares already allow us to record the messages that flow from the device to the car, but others are very closed and restrict. As such, there may be needed on of the following adapters or similar.
 
-For those adapters, I recommend the usage of these amazing utilities: https://github.com/linux-can/can-utils
+For those adapters, I recommend the usage of these amazing utilities: https://github.com/linux-can/can-utils (Docs: https://sgframework.readthedocs.io/en/latest/cantutorial.html)
 Assuming that you configure your adapter as "can0", you can access commands like:
 - <b>candump can0</b> - watch in the standard output the CAN messages that are flowing
 - <b>candump -l can0</b> - save all the CAN messages to a text file
