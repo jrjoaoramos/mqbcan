@@ -34,13 +34,16 @@ Assuming that you configure your adapter as "can0", you can access commands like
 - <b>cansend can0</b> <CAN message> -> send the specified CAN message to the CAN adapter
 
 ### CAN-BUS adapters
-- <b>CAN-BUS Shield V2.0</b>\(http://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0)
+- <b>CAN-BUS Shield V2.0</b>\
+(http://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0)
 ![alt text](https://github.com/SeeedDocument/CAN-BUS-Shield-V2.0/raw/master/img/CAN_BUS_Shield_V2.jpg)
 
-- <b>USB CAN Analyzer</b>\(https://www.seeedstudio.com/USB-CAN-Analyzer-p-2888.html)
+- <b>USB CAN Analyzer</b>\
+(https://www.seeedstudio.com/USB-CAN-Analyzer-p-2888.html)
 ![alt text](https://statics3.seeedstudio.com/seeed/file/2017-06/bazaar487719_1.jpg)
 
-- <b>Serial CAN-BUS Module based on MCP2551 and MCP2515</b>\(https://www.seeedstudio.com/Serial-CANBUS-Module-based-on-MCP2551-and-MCP2515-p-2924.html)
+- <b>Serial CAN-BUS Module based on MCP2551 and MCP2515</b>\
+(https://www.seeedstudio.com/Serial-CANBUS-Module-based-on-MCP2551-and-MCP2515-p-2924.html)
 ![alt text](https://statics3.seeedstudio.com/seeed/file/2018-08/bazaar891352_img_2945a.JPG)
 
 ## Analysed procedures
