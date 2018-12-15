@@ -12,6 +12,10 @@ They can also be applied, of course, to:
 - <b>Audi A3 8V</b>
 - <b>Volkswagen Golf MK7</b>
 
+## CAN-BUS architecture
+The first interface available for diagnosis and development is the OBD connector. It is directly connected to the "main" module of the car that is the CAN Gateway (with hex address 19). That module filters all the data that goes inside the car and just replies for the commands that are asked to it. Thus, it is harder to get access to all the functions of the car. Also, there are many CAN buses available: for engine communication, for confort communication and for infotainment communication. There are even other buses for communication between individual components that aren't broadcasted to the main CAN buses. This way, after analysing the OBD communication there is a need to tap into the specific buses, for example, in the radio Quadlock connector located in the back side.
+Until now, in all the buses the communcation bitrate is <b>500kB/s</b>.
+
 ## Goals
 The main goals for this project is to share and create a community for the development and analysis of these cars' CAN-BUS architecture. As such, there are created documents to explain how to obtain the desired feature and scripts to perform those features automatically or in a semi-automatic fashion. 
 
@@ -40,6 +44,7 @@ Assuming that you configure your adapter as "can0", you can access commands like
 ![alt text](https://statics3.seeedstudio.com/seeed/file/2018-08/bazaar891352_img_2945a.JPG)
 
 ## Analysed procedures
+## Via OBD connector
 - [x] <b>1.</b> Read installed modules list 
 - [x] <b>2.</b> Read long coding from a module (ex.: multimedia unit 5F)
 - [x] <b>3.</b> Write long coding on a module
