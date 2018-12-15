@@ -17,7 +17,8 @@ The first interface available for diagnosis and development is the OBD connector
 The communication bitrate is <b>500kB/s</b>.
 
 ## Goals
-The main goals for this project is to share and create a community for the development and analysis of these cars' CAN-BUS architecture. As such, there are created documents to explain how to obtain the desired feature and scripts to perform those features automatically or in a semi-automatic fashion. 
+The main goals for this project is to share and create a community for the development and analysis of these cars' CAN-BUS architecture. As such, there are created documents to explain how to obtain the desired feature and scripts to perform those features automatically or in a semi-automatic fashion.
+The final goal for this project is to develop an application in which we can use a smartphone and a standard Bluetooth CAN adapter to perform things like: open/close windows, turn on/off lights, lock/unlock the car, change radio settings, and so on :)
 
 ## Current state
 Currently there are being taken dumps from existing applications for common OBD adapter such as VAS, VCDS and VAG CAN PRO. Based on them, the CAN messages are analysed and then replicated. With those messages, there is the possibility to aggregate all the functions in our custom OBD adapters and implement new different features.
