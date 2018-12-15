@@ -55,7 +55,6 @@ The analysis can be done via many different ways. For example, it can be via the
 - [x] <b>4.</b> Read adaptation value from a module
 - [x] <b>5.</b> Write adaptation value on a module without security access code
 - [x] <b>6.</b> Write adaptation value on a module with security access code
-- [ ] <b>7.</b> Read the Infotainment system SWAP codes
 
 ## Automation scripts
 - Work in progress :)
