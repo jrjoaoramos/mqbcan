@@ -12,6 +12,9 @@ They can also be applied, of course, to:
 - <b>Audi A3 8V</b>
 - <b>Volkswagen Golf MK7</b>
 
+## Goals
+The main goals for this project is to share and create a community for the development and analysis of these cars' CAN-BUS architecture. As such, there are created documents to explain how to obtain the desired feature and scripts to perform those features automatically or in a semi-automatic fashion. 
+
 ## Current state
 Currently there are being taken dumps from existing applications for common OBD adapter such as VAS, VCDS and VAG CAN PRO. Based on them, the CAN messages are analysed and then replicated. With those messages, there is the possibility to aggregate all the functions in our custom OBD adapters and implement new different features.
 
@@ -36,12 +39,13 @@ Assuming that you configure your adapter as "can0", you can access commands like
 - <b>Serial CAN-BUS Module based on MCP2551 and MCP2515</b> (https://www.seeedstudio.com/Serial-CANBUS-Module-based-on-MCP2551-and-MCP2515-p-2924.html)
 ![alt text](https://statics3.seeedstudio.com/seeed/file/2018-08/bazaar891352_img_2945a.JPG)
 
-## Examples
-- [ ] Get installed modules list 
-- [ ] Read long coding from a module (ex.: multimedia unit 5F)
-- [ ] Write long coding on a module
-- [ ] Read adaptation value from a module
-- [ ] Write adaptation value on a module without security access code
-- [ ] Write adaptation value on a module with security access code
+## Analysed procedures
+- [x] Get installed modules list 
+- [x] Read long coding from a module (ex.: multimedia unit 5F)
+- [x] Write long coding on a module
+- [x] Read adaptation value from a module
+- [x] Write adaptation value on a module without security access code
+- [x] Write adaptation value on a module with security access code
 
+## Automation scripts
 - Work in progress :)
