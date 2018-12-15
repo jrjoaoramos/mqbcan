@@ -37,4 +37,10 @@ Assuming that you configure your adapter as "can0", you can access commands like
 ![alt text](https://statics3.seeedstudio.com/seeed/file/2018-08/bazaar891352_img_2945a.JPG)
 
 ## Examples
+[ ] Get installed modules list 
+[ ] Read long coding from a module (ex.: multimedia unit 5F)
+[ ] Write long coding on a module
+[ ] Read adaptation value from a module
+[ ] Write adaptation value on a module without security access code
+[ ] Write adaptation value on a module with security access code
 - Work in progress :)
